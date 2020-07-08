@@ -308,20 +308,19 @@ button {
     }
 }
 
-@media (min-width: 768px) and (max-width: 959px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .partners-list {
         margin: 0 auto 70px auto;
         max-width: 485px;
     }
-}
 
-@media (max-width: 959px) {
     .partners-list__item:not(:nth-last-child(-n+2)) {
         margin-bottom: 58px;
     }
+
 }
 
-@media (min-width: 960px) {
+@media (min-width: 992px) {
 
     .header {
         background-image: url(../img/header/background_desktop.png);
